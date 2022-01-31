@@ -1,0 +1,19 @@
+.box{
+    border-style: solid;
+    padding: 50px;
+    color: #fff;
+
+}
+@media screen and(min-width:180px)and(max-width:300px){
+    .box{
+    background-color:pink;}
+}
+@media screen and(min-width:300px){
+    .box{background-color: blueviolet;}
+    
+}
+@media screen and(min-width:450px){
+    .box{background-color: rgb(43, 214, 226);}
+    
+}
+    

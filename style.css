@@ -1,0 +1,171 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+html {
+  
+}
+
+nav {
+  max-width: 960px;
+  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+  margin: auto auto;
+  padding: 60px 0;
+  text-align: center;
+}
+
+nav ul {
+  text-align: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 18px;
+  font-family: "Open Sans";
+  text-transform:uppercase;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li a:hover {
+
+}
+.box1 h1{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.box2 img{
+    width: 200px;
+    text-align: center;
+    padding-left: 40%;
+    padding-right: 70%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.box2 h2{
+    text-align: center;
+}
+.box4 img{
+    display: inline-flexbox;
+    width: 100px;
+   
+}
+
+.box4 h3{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.box4 p{
+  font-size: 20px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: rgb(252, 221, 182);
+}
+.footer{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+h1{
+  color:#c0c0c0;
+  font-weight:100;
+}
+
+.btn{
+  color:#fff;
+  background: #999;
+  padding:10px 20px;
+  font-size:12px;
+  text-decoration:none;
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
+
+.btn:hover{
+  border:none;
+  background:rgba(0, 0, 0, 0.4);
+  background:#fff;
+  padding:20px 20px;
+  color:#1b1b1b;
+}
+
+
+.home {
+  background-color:rgb(158, 61, 248);
+}
+.pix p{
+  font-size: 30px;
+  color: salmon;
+}
+
+
+.pic-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5px;
+}
+
+.boxpic {
+  flex: 1;
+  margin: 5px;
+}
+.boxpic img{
+  width: 200px;
+}
+@media screen and (min-width:180px) and (max-width:300px) {
+  .box{
+  background-color:pink;
+  font-size: 20px;
+  text-align: center;
+  background-image: url(img/cloth.jpg);
+  }
+}
+
+@media screen and (min-width:300px) {
+  .box{background-color: blueviolet;
+      font-size: 40px;
+      text-align: center;
+      background-image: url(img/red.jpg);
+
+  }
+  
+}
+
+@media screen and (min-width:550px) {
+  .box{
+      background-color: rgb(43, 214, 226);
+      font-size: 60px;
+      text-align: center;
+      background-image: url(img/dress.jpg);
+
+  }
+  
+}
+  
+@media screen and (min-width:750px) {
+  .box{
+      background-color: yellow;
+      font-size: 80px;
+      text-align: center;
+      background-image: url(img/gown.jpg);
+      
+
+  }
+  
+}
+  

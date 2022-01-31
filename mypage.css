@@ -1,0 +1,107 @@
+.navbar ul {
+    margin: 0;
+    list-style-type:none;
+    padding: 0;
+    text-align: right;
+    background-color: blueviolet;
+
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: blueviolet;
+    font-size: 25px;
+}
+
+.navbar ul a:hover{
+    color: blueviolet;
+    background: white;
+}
+
+.navbar {
+    background-color: blueviolet;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+.navbar {
+    box-shadow: 10px 5px rgb(195, 226, 236);
+}
+.box{
+    display: flex;
+
+}
+.text h1{
+    text-align: center;
+}
+
+.box div {
+    margin: 40px;
+}
+
+.box-foot {
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding-top: 30px;
+}
+
+.foot-list ul li a {
+    color:white;
+    text-decoration: none;
+}
+
+.foot-list ul {
+    list-style-type:none;
+}
+
+
+.foot-list {
+    display: inline-block;
+    width: 33%;
+}
+
+.foot-last p {
+    display: inline-block;
+    width: 49%;
+
+}
+
+.foot-text2 {
+    text-align: right;
+}
+
+.foot-last {
+    background-color: #273443;
+}
+
+
+.box4 {
+    background-image: url("afro-lady.jpg");
+    padding-bottom: 300px;
+    padding-top: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.navbar {
+    box-shadow: 10px 5px rgb(195, 226, 236);
+}
+
+
+img {
+    box-shadow: 0 0 32px rgba(34, 5, 5, 0.52);
+}
+
